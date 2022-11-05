@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.TeamCardDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: #ffffff;
+  background-color: #ffffff33;
+  border: 1px solid #ffffff33;
+  border-radius: 8px;
+  padding: 10px;
+  width: 360px;
+  height: 140px;
+  margin: 10px;
+}
+.teamImg {
+  width: 50px;
+  margin-right: 15px;
+}
+.teamH1 {
+  font-size: 30px;
+}
+.linkStyle {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .TeamCardDiv {
+    width: 43vw;
+  }
+  .teamImg {
+    width: 35px;
+    margin-right: 10px;
+  }
+  .teamH1 {
+    font-size: 18px;
+  }
+}

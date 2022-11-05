@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.cardDiv {
+  background-color: #1e293b;
+  padding: 25px;
+  border-radius: 10px;
+  width: 26vw;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cardImg {
+  max-width: 13vw;
+  max-height: 6vh;
+}
+.lostStatus {
+  color: #e31a1a;
+}
+.wonStatus {
+  color: #18ed66;
+}
+
+@media screen and (max-width: 767px) {
+  .cardDiv {
+    width: 39vw;
+    border-radius: 15px;
+    margin: 5px;
+  }
+}

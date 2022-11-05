@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.matchesBg {
+  background-image: linear-gradient(to top, #1e293b, #a4261d, #d91c1f);
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 40px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+}
+.bannerImg {
+  width: 93vw;
+}
+.lMDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1e293b;
+  padding: 20px;
+
+  border-radius: 8px;
+}
+.lMLeftDiv {
+  width: 30vw;
+}
+.date {
+  font-size: 21px;
+}
+.rightHead {
+  font-size: 19px;
+  margin: 0;
+  padding: 0;
+}
+.lMLogo {
+  width: 20vw;
+}
+.lMRightDiv {
+  width: 30vw;
+  text-align: right;
+}
+.cardsDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+.matchesDiv {
+  width: 95vw;
+}

@@ -1,0 +1,78 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+  .lMDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .cTName {
+    font-size: 25px;
+  }
+  .lsDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 55vw;
+  }
+  .lMLeftDiv {
+    width: 30vw;
+  }
+  .date {
+    font-size: 21px;
+  }
+  .rightHead {
+    font-size: 19px;
+    margin: 0;
+    padding: 0;
+  }
+  .lMLogo {
+    width: 20vw;
+  }
+  .lMRightDiv {
+    width: 30vw;
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lMDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 8px;
+    width: 95vw;
+  }
+  .cTName {
+    font-size: 25px;
+  }
+  .lsDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+  }
+  .date {
+    font-size: 21px;
+  }
+  .rightHead {
+    font-size: 19px;
+    margin: 0;
+    padding: 0;
+  }
+  .lMLogo {
+    width: 20vw;
+  }
+  .lMRightDiv {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+  }
+}
